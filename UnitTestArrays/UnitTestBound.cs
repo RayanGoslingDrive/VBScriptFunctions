@@ -13,7 +13,7 @@ namespace UnitTestArrays
             object obj1 = ArrayFunctions.Array("asd", "asd");
             object obj2 = ArrayFunctions.Array("dsa", "dsa");
             object obj = ArrayFunctions.Array(obj1, obj2);
-            object asd = ArrayFunctions.LBound(obj, 0);
+            object asd = ArrayFunctions.LBound(obj, 1);
             Assert.AreEqual(0, asd);
         }
     }
