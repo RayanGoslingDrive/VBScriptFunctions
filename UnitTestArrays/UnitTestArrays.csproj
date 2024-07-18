@@ -49,6 +49,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UnitTestBound.cs" />
+    <Compile Include="UnitTestJoin.cs" />
     <Compile Include="UnitTestIsArray.cs" />
     <Compile Include="UnitTestFilter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
